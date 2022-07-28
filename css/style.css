@@ -1,0 +1,282 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+*{
+  font-family: 'Ibarra Real Nova', serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+ul{
+  list-style: none;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+}
+header li{
+  display: inline;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+#logo{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.checkout{
+  width: 30px;
+}
+#clicks{
+  padding-top: 30px;
+
+}
+
+main{
+  background: url('../images/main.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#logomain{
+  width: 400px;
+  margin-bottom: 25px;
+}
+h1{
+  color: white;
+  font-size: 100px;
+  width: 40%;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+#STYLE{
+  color: white;
+  margin-left: 105px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'EB Garamond', serif;
+}
+
+#services{
+  background: black;
+  color: white;
+  font-size: 10px;
+  padding: 10px 20px; 
+  width: 120px;
+  margin-left: 105px;
+}
+main section{
+  background: white;
+  color: white;
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left:100px;
+}
+#scissors{
+  height: 300px;
+}
+.smallImg{
+  height: 30px;
+}
+.visit{ 
+  margin: 40px 0 30px 15px;
+
+}
+#book{
+  background: white;
+  color: black;
+  width: 100px;
+  height: 30px;
+  padding: 10px 0 0px 7px;
+  font-size: 10px;
+  margin-left: 15px;
+}
+div{
+  margin-left: 15px;
+}
+.percent{
+  font-weight: 700;
+  font-size: 20px;
+}
+.Services{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.indiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+.indiv p{
+  text-align: center;
+}
+.momentum{
+  display: flex;
+  height: 400px;
+  background-color: rgba(244, 244, 246, 1);
+  justify-content: space-around;
+  padding-top: 40px;
+}
+section.momentum > section{
+  width: 50%;
+  padding: 0 50px;
+}
+section.momentum > section > h2{
+  font-size: 40px;
+  width: 60%;
+}
+.employees{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+#Alita{
+  background: url('../images/mask.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+
+#Ayesha{
+  background: url('../images/spray.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+
+#Smith{
+  background: url('../images/razorart.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+
+.styleName{
+  background: black;
+  color: white;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+section.styleName span + span{
+  font-size: 10px;
+}
+#coupon{
+  background: url('../images/metal.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+.discount{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#read{
+background: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 10px;
+  padding: 10px 20px;
+}
+section#coupon > section{
+  margin: 40px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+section#coupon div span + span, section#coupon div + span {
+  font-size: 30px;
+  padding-top: 20px;
+}
+section#coupon div > span{
+  font-size: 40px;
+}
+section#coupon a{
+  background: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 10px;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+.lookBook{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.lookBook section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 90%;
+  height: 60%;
+}
+section.lookBook img{
+  align-self: center;
+  width: 300px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
