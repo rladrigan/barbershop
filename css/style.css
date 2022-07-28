@@ -230,6 +230,7 @@ section.styleName span + span{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 #read{
 background: black;
@@ -276,6 +277,7 @@ section.lookBook section{
 section.lookBook img{
   align-self: center;
   width: 300px;
+  margin-top: 10px;
 }
 /******************************************
 /* ADDITIONAL STYLES
